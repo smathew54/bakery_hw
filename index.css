@@ -1,0 +1,78 @@
+.brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: xx-large;
+  justify-items: center;
+  text-decoration: underline;
+  text-decoration-thickness: 2;
+  text-align: center;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1vh;
+  justify-self: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  border: black;
+}
+
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  background-color: darkslateblue;
+  color: white;
+  padding: 1vw;
+}
+
+.testimonial {
+  font-style: italic;
+  background-color: white;
+  border: 2px;
+  border-color: black;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+.product {
+  border: 2vw;
+  margin-left: 2.5%;
+  padding: 1vh;
+}
+
+footer {
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+  padding: 1vh;
+}
+
+h1 {
+  margin-left: 2.5%;
+}
